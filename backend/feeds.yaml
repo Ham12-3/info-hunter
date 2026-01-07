@@ -1,0 +1,24 @@
+# RSS Feed Configuration for Info Hunter
+# Add or remove feeds as needed
+
+feeds:
+  - url: https://realpython.com/atom.xml
+    name: Real Python
+    enabled: true
+    
+  - url: https://dev.to/feed
+    name: DEV Community
+    enabled: true
+    
+  - url: https://blog.logrocket.com/feed/
+    name: LogRocket Blog
+    enabled: true
+    
+  - url: https://hacks.mozilla.org/feed/
+    name: Mozilla Hacks
+    enabled: true
+    
+  - url: https://engineering.fb.com/feed/
+    name: Meta Engineering
+    enabled: false  # Disable if you don't want this feed
+
